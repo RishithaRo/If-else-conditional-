@@ -1,0 +1,20 @@
+#Current Bill
+#cmr=current meter reading
+#pmr=previous meter reading
+#nu=number of units
+#Rate of one unit: if nu>500, ₹6.75 else ₹3.50
+cmr=eval(input("Enter cmr value:"))
+pmr=eval(input("Enter pmr value:"))
+nu=cmr-pmr
+if nu>500:
+	bill=nu*6.75
+	print("Your bill is:",bill)
+else:
+	bill=nu*3.50
+	print("Your bill is:",bill)
+'''_______OUTPUT__________
+Enter cmr value:400
+Enter pmr value:100
+Your bill is: 1050.0
+
+[Program finished]'''
