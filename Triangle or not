@@ -1,0 +1,17 @@
+#python program to accept three angles of a shape and print if the shape is triangle or not
+print("Enter the three angles of a shape:")
+a=eval(input())
+b=eval(input())
+c=eval(input())
+if a+b+c==180:
+	print("Triangle is formed...")
+else:
+	print("Not a triangle....")
+'''_________OUTPUT________
+Enter the three angles of a shape:
+60
+50
+70
+Triangle is formed...
+
+[Program finished]'''
