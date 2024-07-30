@@ -1,0 +1,16 @@
+#write a program to accept two numbers, divide num1 with num2 and print the result
+#if num2 is zero, then print division with zero is not possible
+
+num1=eval(input("Enter num1:"))
+num2=eval(input("Enter num2:"))
+if num2==0:
+	print("Division with zero is not possible")
+else:
+	div_result=num1/num2
+	print("The result of division is:",div_result)
+'''___________OUTPUT____________
+Enter num1:6
+Enter num2:2
+The result of division is: 3.0
+
+[Program finished]'''
