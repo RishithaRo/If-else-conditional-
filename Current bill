@@ -3,6 +3,7 @@
 #pmr=previous meter reading
 #nu=number of units
 #Rate of one unit: if nu>500, ₹6.75 else ₹3.50
+''' write a python program to accept cmr,pmr, calculate nu, print the bill 
 cmr=eval(input("Enter cmr value:"))
 pmr=eval(input("Enter pmr value:"))
 nu=cmr-pmr
