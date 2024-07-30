@@ -1,3 +1,4 @@
+# write a python program to accept a number and print it is even number or odd number.
 n=eval(input("Enter any number:"))
 if n%2==0:
 	print("Even number...")
