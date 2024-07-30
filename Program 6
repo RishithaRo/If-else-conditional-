@@ -1,0 +1,22 @@
+'''write a python program to accept the price, quantity of a product and print the actual bill, discount and netbill.
+Allow 15% discount if bill exceeds to 1000 otherwise, Allow 5% discount'''
+
+price=eval(input("Enter product price:"))
+qty=eval(input("Enter quantity of product:"))
+bill=price*qty
+if bill>=1000:
+	discount=bill*15/100
+else:
+	discount=bill*5/100
+net_bill=bill-discount
+print("Your actual bill is",bill)
+print("Your discount is",discount)
+print("Your net bill is",net_bill)
+'''__________OUTPUT_________
+Enter product price:2000
+Enter quantity of product:1
+Your actual bill is 2000
+Your discount is 300.0
+Your net bill is 1700.0
+
+[Program finished]'''
