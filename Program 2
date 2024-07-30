@@ -1,3 +1,4 @@
+#write a python program to accept a number and print it is positive or negative 
 n=eval(input("Enter any number:"))
 if n>0:
 	print("Positive...")
