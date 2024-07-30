@@ -1,0 +1,10 @@
+#Write a python program to accept two numbers and print if they are equal or not
+num1=int(input("Enter num1:"))
+num2=int(input("Enter num2:"))
+print("Both are equal..")if num1==num2 else print("Both are not equal...")
+'''____________OUTPUT____________
+Enter num1:8
+Enter num2:9
+Both are not equal...
+
+[Program finished]'''
