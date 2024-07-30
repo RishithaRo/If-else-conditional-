@@ -1,0 +1,8 @@
+#write a python program to accept a number and print it is even number or odd number
+num=int(input("Enter a number:"))
+print("Even number...")if num%2==0 else print("Odd number")
+'''_______________OUTPUT____________
+Enter a number:8
+Even number...
+
+[Program finished]'''
