@@ -1,0 +1,13 @@
+a=10
+b=20
+'''c=a-b if a>b else c=b-a
+print(c)'''
+#In this short hand if-else syntax, "we can't assign the variables with values", if we try to assign based on condition, it will raise an "error"
+'''instead we can use the following short hand if else syntax...'''
+if a>b:c=a-b
+else:c=b-a
+print(c)
+'''_____________OUTPUT_____________
+10
+
+[Program finished]'''
